@@ -299,3 +299,69 @@ footer .widget_title_text{
 .footer_copy a:hover {
     text-decoration: underline;
 }
+.menuMobile{
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+@media (max-width:600px){
+    .banner_headline h1{
+        font-size: 55px;
+        padding-left: 20px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section, 
+    #geral aside{
+        padding: 20px;
+    }
+    .widget_title_text{
+        padding-top: 30px
+    }
+    .footer_menu{
+       height: auto;
+       flex-direction: column;
+    }
+    .footer_area{
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+        background-color: #FFF;
+        position: absolute;
+        width: 100%;
+    }
+    header{
+        height: auto;
+    }
+    .logo{
+        margin-top: 20px;
+        padding-left: 20px;
+        width: 50%;
+    }
+    .menuMobile{
+        display:flex;
+        margin-left: 280px;
+    }
+
+    
+}
